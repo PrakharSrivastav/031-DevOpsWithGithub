@@ -4,12 +4,12 @@ on:
     branches:
       - "main"
     paths:
-      - "/Application"
+      - "Application"
   pull_request:
     branches:
       - "main"
     paths:
-      - "/Application"
+      - "Application"
 jobs:
   build:
     runs-on: ubuntu-latest
