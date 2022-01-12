@@ -6,6 +6,7 @@ on:
       - '.github/workflows/deployTest.yml'
 jobs:
   infrastructure-provisioning:
+    name: "provision infrastructure on Azure"
     runs-on: ubuntu-latest
     steps:
       - name: "checkout action"
