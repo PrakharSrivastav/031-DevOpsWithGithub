@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@main
+      # use credentials
       - uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_LOGIN }}
