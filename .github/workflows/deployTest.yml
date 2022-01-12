@@ -3,7 +3,7 @@ on:
     branches:
       - "main"
     paths:
-      - '.github/workflows/deployDev.yml'
+      - '.github/workflows/deployTest.yml'
 jobs:
   infrastructure-provisioning:
     runs-on: ubuntu-latest
@@ -21,4 +21,4 @@ jobs:
         with:
           subscriptionId: ${{ secrets.AZURE_SUBSCRIPTION }}
           resourceGroupName: ${{ secrets.AZURE_RESOURCE_GROUP }}
-          template: ./ARM-Templates/container-webapp-template.json
+          template: ./ARM-Templates/container-webapp-template-test.json
