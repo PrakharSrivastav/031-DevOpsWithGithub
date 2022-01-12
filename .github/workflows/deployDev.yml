@@ -1,7 +1,7 @@
 on:
   push:
     paths:
-      -'.github/workflows/deployDev.yml'
+      - '.github/workflows/deployDev.yml'
 jobs:
   Deploy-to-dev:
     runs-on: ubuntu-latest
