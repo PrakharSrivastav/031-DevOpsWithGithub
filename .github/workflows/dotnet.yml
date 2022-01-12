@@ -7,8 +7,6 @@ on:
       - '.github/workflows/dotnet.yml'
       - "Application"
   pull_request:
-    branches:
-      - "main"
     paths:
       - "Application"
 env:
