@@ -8,7 +8,7 @@ on:
       - "Application"
   pull_request:
     paths:
-      - "Application"
+      - "Application/**"
 env:
   registryName: "praksdevopsreg.azurecr.io"
   repositoryName: "wth/dotnetcoreapp"
