@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "praks-devops-dev",
+            "defaultValue": "praksdevops-dev",
             "type": "String"
         },
         "hostingPlanName": {
-            "defaultValue": "praks-devops-asp",
+            "defaultValue": "praksdevops-asp",
             "type": "String"
         },
         "appInsightsLocation": {
@@ -15,7 +15,7 @@
             "type": "String"
         },
         "appInsightsName": {
-            "defaultValue": "praks-devops-ai",
+            "defaultValue": "praksdevops-ai",
             "type": "String"
         },        
         "sku": {
@@ -23,11 +23,11 @@
             "type": "String"
         },
         "registryName": {
-            "defaultValue": "praks-devopsreg",
+            "defaultValue": "praksdevopsreg",
             "type": "String"
         },
         "imageName": {
-            "defaultValue": "praks-devopsimage",
+            "defaultValue": "praksdevopsimage",
             "type":"String"
         },
         "registryLocation": {
